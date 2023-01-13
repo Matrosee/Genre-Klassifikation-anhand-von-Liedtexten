@@ -52,7 +52,7 @@ FLAML steht für "Fast Light AutoML" und ist eine Erweiterung des LightGBM, eine
 # Unsere Ergebnisse
 Mit den Optimalen Hyperparametern haben wir unsere MLA trainiert und folgende Ergebnisse bekommen:
 
-HIER EINE TABELLE MIT ALLEN UNSEREN ERGEBNISSEN, DIE BESTEN AM BESTEN FETT GEHIGHLITED
+![image](https://user-images.githubusercontent.com/122549143/212345700-96bd628a-3d1d-4f2a-90d0-1ff25a7228f2.png)
 
 Wie man hier sehen kann, hat die MLA "xxx" mit den Features "xxx" die besten Resultate erzielt. Mit einer Wahrscheinlichkeit von "xxx" klassifiert unser Programm ein Lied zum richtigen Genre.
 
