@@ -13,7 +13,7 @@ Unseren Datensatz haben wir von Kaggle von dem User MATEI BEJAN. Hier ist der Li
 Es gibt einmal einen Trainingsdatensatz und einen Testdatensatz. Der Trainingsdatensatz hat ungefähr 250.000 Lieder in 5 verschiedenen Sprachen. Es gibt insgesamt 10 verschiedene Genre, welche aber sehr ungleich verteilt sind. Am häufigsten sind die Genre Pop und Rock die zusammen ca. 80% der Lieder abdecken. 
 Der Testdatensatz besteht aus ca. 8000 Liedtexten, welche alle auf englisch sind und dieses mal die Genre ein bisschen besser verteilt sind.
 
-HIER MUSS EINE SCHÖNE TABELLE MIT DEN GENRE UND DEN ANZAHLEN HIN
+![image](https://user-images.githubusercontent.com/122549143/212372632-271b5f95-5e41-454c-874d-c4b9e3b15822.png)
 
 Bevor wir uns dem Preprocessing gewidmet haben, wollten wir einen Datensatz haben, bei den die Genre ausgewogen verteilt sind und nur englische Liedtexte verwendet werden. Verschiedene Sprachen hätten unser Projekt deutlich komplizierter gemacht und wir wollten uns lieber auf unsere Hauptaufgabe konzentrieren. Also haben wir unseren Datensatz nach nur englischen Liedern sortiert und das Genre mit den wenigsten Liedtexten angeschaut. Dieses Genre ist "Electronic" mit 1809 Liedern. 
 
