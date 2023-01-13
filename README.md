@@ -19,7 +19,7 @@ Bevor wir uns dem Preprocessing gewidmet haben, wollten wir einen Datensatz habe
 
 Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 1800 Liedtexten in englisch.
 
-HIER MUSS EINE SCHÖNE TABELLE MIT DEN GENRE UND DEN ANZAHLEN HIN
+![image](https://user-images.githubusercontent.com/122549143/212351104-926d15f9-77f4-41d7-812b-137237664cc6.png)
 
 # Unser Preprocessing
 Als erstes haben wir alle Sonderzeichen aus den Liedtexten, die Spalte mit dem Namen "Lyrics" entfernt. Außerdem alle unnötigen Wörter, die auch in Klammern stehen wie z.B. "Chorus" oder "Refrain", da diese für unser Projekt irrelevant sind. Auch Zeichenketten wie "\n" die für einen Zeilenumbruch in Python stehen, wurden auch entfernt. 
