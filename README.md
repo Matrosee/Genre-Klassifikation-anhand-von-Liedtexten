@@ -11,9 +11,13 @@ Trainingsdatensatz:
 - 250,000 Lieder in 5 verschiedenen Sprachen
 - 10 verschiedene Genres, wobei Pop und Rock am häufigsten vorkommen (ca. 80% des Datensatzes)
 
+![image](https://user-images.githubusercontent.com/122549143/212567403-57df8172-dd50-4821-8d95-27eed309e7eb.png)
+
+
 Testdatensatz: 
 - 8000 Liedtexte, alle auf Englisch
 - Genres im Vergleich zum Trainingsdatensatz einigermaßen gleich verteilt
+![image](https://user-images.githubusercontent.com/122549143/212567482-706c2818-e41c-4e2f-9893-12d2bc732bb5.png)
 
 ![image](https://user-images.githubusercontent.com/122549143/212372632-271b5f95-5e41-454c-874d-c4b9e3b15822.png)
 
