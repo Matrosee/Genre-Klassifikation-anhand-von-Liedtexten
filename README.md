@@ -56,13 +56,16 @@ HIER EIN BILD DER ZUSAMMFASSUNG UNSERES TRAININGSDATENSATZES
 - Durchführung einer GridSearchCV für SVM und Arbeit mit FLAML für LGBM, bevor finaler Durchlauf
 - GridSearchCV: Automatische Optimierung von Hyperparametern durch Ausprobieren von verschiedenen Kombinationen, Auswahl der besten Ergebnisse
 - FLAML: Erweiterung von LightGBM, automatisierte Methode zur Optimierung von Hyperparametern und Feature Engineering, verbessert Leistung von LightGBM-Modellen durch Automatisierung von Hyperparameter-Tuning und Feature-Engineering-Prozessen
-- 
+
 # Unsere Ergebnisse
 Mit den Optimalen Hyperparametern haben wir unsere MLA trainiert und folgende Ergebnisse bekommen:
 
 ![image](https://user-images.githubusercontent.com/122549143/212345700-96bd628a-3d1d-4f2a-90d0-1ff25a7228f2.png)
 
-Wie man hier sehen kann, hat die MLA "xxx" mit den Features "xxx" die besten Resultate erzielt. Mit einer Wahrscheinlichkeit von "xxx" klassifiert unser Programm ein Lied zum richtigen Genre.
+Die besten Resultate pro Feature:
+- CountVectorizer:    xxx mit folgenden Hyperparamtern: Y:XX, Y:xx, Y:xx
+- TF-IDF Vectorizer:  xxx mit folgenden Hyperparamtern: Y:XX, Y:xx, Y:xx
+- Spacy-Vectorizer:   xxx mit folgenden Hyperparamtern: Y:XX, Y:xx, Y:xx
 
 # Was hätten wir besser machen können?/ Woran sollte man weiterarbeiten beim nächsten Mal?
 - Weitere verschiedene MLA ausprobieren
