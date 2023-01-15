@@ -19,8 +19,6 @@ Testdatensatz:
 - Genres im Vergleich zum Trainingsdatensatz einigermaßen gleich verteilt
 ![image](https://user-images.githubusercontent.com/122549143/212567482-706c2818-e41c-4e2f-9893-12d2bc732bb5.png)
 
-![image](https://user-images.githubusercontent.com/122549143/212372632-271b5f95-5e41-454c-874d-c4b9e3b15822.png)
-
 Ziel: ausgewogen verteilter Datensatz mit englischen Liedtexten
 - Vermeidung von Mehrsprachigkeit, um sich auf Hauptaufgabe zu konzentrieren
 - Sortierung des Datensatzes nach englischen Liedern
@@ -28,7 +26,6 @@ Ziel: ausgewogen verteilter Datensatz mit englischen Liedtexten
 
 Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 1800 Liedtexten in englisch.
 
-![image](https://user-images.githubusercontent.com/122549143/212351104-926d15f9-77f4-41d7-812b-137237664cc6.png)
 
 # Unser Preprocessing
 - Entfernung von Sonderzeichen und unnötigen Wörtern aus Liedtexten
