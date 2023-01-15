@@ -10,8 +10,13 @@ Die in der requirements.txt aufgelisteten Libraries
 # Unser Datensatz
 Unseren Datensatz haben wir von Kaggle von dem User MATEI BEJAN. Hier ist der Link zu diesem Datensatz: https://www.kaggle.com/datasets/mateibejan/multilingual-lyrics-for-genre-classification?select=train.csv
 
-Es gibt einmal einen Trainingsdatensatz und einen Testdatensatz. Der Trainingsdatensatz hat ungefähr 250.000 Lieder in 5 verschiedenen Sprachen. Es gibt insgesamt 10 verschiedene Genre, welche aber sehr ungleich verteilt sind. Am häufigsten sind die Genre Pop und Rock die zusammen ca. 80% der Lieder abdecken. 
-Der Testdatensatz besteht aus ca. 8000 Liedtexten, welche alle auf englisch sind und dieses mal die Genre ein bisschen besser verteilt sind.
+Trainingsdatensatz: 
+- 250,000 Lieder in 5 verschiedenen Sprachen
+- 10 verschiedene Genres, wobei Pop und Rock am häufigsten vorkommen (ca. 80% des Datensatzes)
+
+Testdatensatz: 
+- 8000 Liedtexte, alle auf Englisch
+- Genres im Vergleich zum Trainingsdatensatz einigermaßen gleich verteilt
 
 ![image](https://user-images.githubusercontent.com/122549143/212372632-271b5f95-5e41-454c-874d-c4b9e3b15822.png)
 
