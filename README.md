@@ -30,14 +30,9 @@ Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 180
 ![image](https://user-images.githubusercontent.com/122549143/212351104-926d15f9-77f4-41d7-812b-137237664cc6.png)
 
 # Unser Preprocessing
-Als erstes haben wir alle Sonderzeichen aus den Liedtexten, die Spalte mit dem Namen "Lyrics" entfernt. Außerdem alle unnötigen Wörter, die auch in Klammern stehen wie z.B. "Chorus" oder "Refrain", da diese für unser Projekt irrelevant sind. Auch Zeichenketten wie "\n" die für einen Zeilenumbruch in Python stehen, wurden auch entfernt. 
-Danach wurde der Trainingsdatensatz so angepasst, dass nur noch die Spalten "Genre", "Lyriks" und "cleaned_lyrics" übrig blieben. Auf der Basis von "cleaned_lyrics" haben wir diese gereinigten Liedtexte einmal "gestemmed". Das heißt die Wortendungen entfernt, z.B. "He always runs to the supermarket" wird dann in "He always run to the supermarket". Damit haben wir nur noch die Wortstämme und möglicherweise liefern Songtexte mit nur Wortstämmen, bessere Ergebnisse als die normalen gereingten Liedtexte. Diese Liedtexte sind in der Spalte "stemmed_lyrics". Aus dem gleichen Grund haben wir die Spalte "wosw_lyrics" hinzugefügt. Wir haben englische Stopwörter wie "but", "be","after", etc. herausgefiltert, da diese oft nur eine sehr kleine Rolle in der Sprache spielen und somit möglicherweise das Ergebnis am Ende verschlechtern könnten.  Diese beiden Fälle haben wir dann miteinander kombiniert, indem wir zum einem aus "stemmed_lyrics" die Stopwörter herausgefiltert haben und in "stemmed_wosw_lyrics" gespeicher haben. Als nächstes haben wir von "wosw_lyrics" die Endungen abgeschnitten, das ist dann die Spalte "wosw_stemmed_lyrics. 
-
-Am Ende haben wir dann die Spalten "Genre", "Lyrics", "cleanded_lyrics", "stemmed_lyrics", "wosw_lyrics", "stemmed_wosw_lyrics" und "wosw_stemmed_lyrics". Auf diesem normalen und den verschieden gereinigten Liedtexten werden wir die Features extrahieren und unsere Machine-Learning-Algorithmen anwenden. 
-
--Entfernung von Sonderzeichen und unnötigen Wörtern aus Liedtexten
--Entfernung von Zeilenumbrüchen (\n)
--Anpassung des Trainingsdatensatzes auf "Genre", "Lyrics" und "cleaned_lyrics"
+- Entfernung von Sonderzeichen und unnötigen Wörtern aus Liedtexten
+- Entfernung von Zeilenumbrüchen (\n)
+- Anpassung des Trainingsdatensatzes auf "Genre", "Lyrics" und "cleaned_lyrics"
 
 - Anwendung von Stemming auf "cleaned_lyrics" und Speicherung in "stemmed_lyrics"
 - Entfernung von Stopwörter auf "cleaned_lyrcs"  und Speicherung in "wosw_lyrics"
