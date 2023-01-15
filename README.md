@@ -26,6 +26,8 @@ Ziel: ausgewogen verteilter Datensatz mit englischen Liedtexten
 
 Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 1800 Liedtexten in englisch.
 
+HIER EIN BILD DER ZUSAMMFASSUNG UNSERES TRAININGSDATENSATZES
+
 
 # Unser Preprocessing
 - Entfernung von Sonderzeichen und unnötigen Wörtern aus Liedtexten
