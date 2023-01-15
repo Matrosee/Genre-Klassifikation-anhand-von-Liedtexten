@@ -35,6 +35,16 @@ Danach wurde der Trainingsdatensatz so angepasst, dass nur noch die Spalten "Gen
 
 Am Ende haben wir dann die Spalten "Genre", "Lyrics", "cleanded_lyrics", "stemmed_lyrics", "wosw_lyrics", "stemmed_wosw_lyrics" und "wosw_stemmed_lyrics". Auf diesem normalen und den verschieden gereinigten Liedtexten werden wir die Features extrahieren und unsere Machine-Learning-Algorithmen anwenden. 
 
+-Entfernung von Sonderzeichen und unnötigen Wörtern aus Liedtexten
+-Entfernung von Zeilenumbrüchen (\n)
+-Anpassung des Trainingsdatensatzes auf "Genre", "Lyrics" und "cleaned_lyrics"
+
+- Anwendung von Stemming auf "cleaned_lyrics" und Speicherung in "stemmed_lyrics"
+- Entfernung von Stopwörter auf "cleaned_lyrcs"  und Speicherung in "wosw_lyrics"
+- Anwendung von Stemming auf "wosw_lyrics" und Speicherung in "wosw_stemmed_lyrics"
+- Entfernung von Stopwörter auf "stemmed_lyrics"  und Speicherung in "stemmed_wosw_lyrics"
+- Ergebnis: Spalten "Genre", "Lyrics", "cleanded_lyrics", "stemmed_lyrics", "wosw_lyrics", "stemmed_wosw_lyrics" und "wosw_stemmed_lyrics" zur Verfügung für Feature-Extraktion und Anwendung von Machine-Learning-Algorithmen.
+
 # Feature Extrahierung
 Wir haben auf unsere 5 Liedtext-Spalten jeweils einmal einen CountVectorizer(CouVec), TF-IDF Vectozier(Tfidf), SpaCy-Vektorizer(SV), xxx und xxx angewendet. 
 
