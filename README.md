@@ -50,12 +50,10 @@ Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 180
 Mit unseren Features bzw. Vektoren können wir nun unsere MLA trainieren. Wir haben uns für folgende MLA entschieden: Eine SupportVectorMaschine(SVM), die LightGradientBoostingMachine(LGBM) und den RandomForestClassifier(RFC). Ich habe die SVM und LGBM mit CouVev, Tfidf und SV trainiert und die Christina den RFC mit CouVec und Tfidf. 
 
 # Unsere Hyperparamter-Tuning
-Bevor wir allerdings den finalen Durchlauf machen können welcher dann in unseren Ergebnissen mündet, haben "wir eine GridSearchCV für die SVM gemacht  und mit FLAML für die LGBM gearbeitet". Jeder MLA hat bestimmte Parameter wie diese Trainiert werden. Ohne Hyperparamater-Tunig lässt sich nur sehr schwer eine Aussage über die Qualität einer MLA machen. 
-
-GridSearchCV ist eine Klasse in scikit-learn, einer bekannten Python-Library für maschinelles Lernen. Sie ermöglicht es, verschiedene Hyperparameter eines Modells automatisch zu optimieren, indem sie systematisch verschiedene Kombinationen von Hyperparametern ausprobiert und diejenige auswählt, die die besten Ergebnisse liefert. Dazu wird ein "Grid" von möglichen Hyperparameter-Werten angegeben, die durchprobiert werden sollen, und eine Methode zur Bewertung der Modellleistung (z.B. Cross-Validation). GridSearchCV führt dann automatisch eine Suche durch, indem es alle möglichen Kombinationen ausprobiert und diejenige auswählt, die die besten Ergebnisse liefert. Es ist ein sehr nützliches Werkzeug, um die besten Hyperparameter für ein Modell zu finden, ohne dass man diese manuell durchprobieren muss. Es kann jedoch auch Zeitintensiv sein, da es eine große Anzahl an Modellen trainieren und bewerten muss, je nachdem wie viele Hyperparameter und deren Werte angegeben wurden.
-
-FLAML steht für "Fast Light AutoML" und ist eine Erweiterung des LightGBM, einem schnellen und effizienten Gradient Boosting Framework. FLAML ist eine automatisierte Methode zur Optimierung von Hyperparametern und Feature Engineering für LightGBM-Modelle. Es ermöglicht es, die Leistung von LightGBM-Modellen durch die Automatisierung von Hyperparameter-Tuning und Feature-Engineering-Prozessen zu verbessern.FLAML AutoML bei LightGBM automatisiert die Suche nach den besten Hyperparametern für ein LightGBM-Modell und die Auswahl der besten Merkmale, um eine Vorhersage zu treffen. Es kombiniert Algorithmen wie GridSearchCV, RandomSearchCV, Hyperopt und Optuna, um eine effiziente und schnelle Suche durch den Hyperparameterraum durchzuführen. Es beinhaltet auch Funktionen wie die Automatisierung von One-Hot-Encoding, die Erstellung von Interaktionen und die Automatisierung von normalisierten und standardisierten Merkmalen.
-
+- Durchführung einer GridSearchCV für SVM und Arbeit mit FLAML für LGBM, bevor finaler Durchlauf
+- GridSearchCV: Automatische Optimierung von Hyperparametern durch Ausprobieren von verschiedenen Kombinationen, Auswahl der besten Ergebnisse
+- FLAML: Erweiterung von LightGBM, automatisierte Methode zur Optimierung von Hyperparametern und Feature Engineering, verbessert Leistung von LightGBM-Modellen durch Automatisierung von Hyperparameter-Tuning und Feature-Engineering-Prozessen
+- 
 # Unsere Ergebnisse
 Mit den Optimalen Hyperparametern haben wir unsere MLA trainiert und folgende Ergebnisse bekommen:
 
@@ -64,12 +62,10 @@ Mit den Optimalen Hyperparametern haben wir unsere MLA trainiert und folgende Er
 Wie man hier sehen kann, hat die MLA "xxx" mit den Features "xxx" die besten Resultate erzielt. Mit einer Wahrscheinlichkeit von "xxx" klassifiert unser Programm ein Lied zum richtigen Genre.
 
 # Was hätten wir besser machen können?/ Woran sollte man weiterarbeiten beim nächsten Mal?
-Weitere verschiedene MLA ausprobieren
+- Weitere verschiedene MLA ausprobieren
 
-Weitere verschiedene Features-Extrahierer ausprobieren, z.B. Reim-Muster, xxx, xxx, etc. 
+- Weitere verschiedene Features-Extrahierer ausprobieren, z.B. Reim-Muster, xxx, xxx, etc. 
 
-Mit mehr Liedtexten arbeiten
+- Mit mehr Liedtexten arbeiten
 
-Möglicherweise mit multilabel classification arbeiten statt mit binary classification
-
-xxx
+- Möglicherweise mit multilabel classification arbeiten statt mit binary classification
