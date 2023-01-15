@@ -47,7 +47,10 @@ HIER EIN BILD DER ZUSAMMFASSUNG UNSERES TRAININGSDATENSATZES
 - Spacy-Vectorizer: Verarbeitung von Textdokumenten mit Spacy-Modell, Erstellung von Vektoren durch Tokenisierung, Lemmatisierung und POS-Tagging; Umwandlung von Texten in numerische Darstellung als Eingabe für maschinelle Lernmodelle.
 
 # Unsere Machine-Learning-Algorithmen (MLA)
-Mit unseren Features bzw. Vektoren können wir nun unsere MLA trainieren. Wir haben uns für folgende MLA entschieden: Eine SupportVectorMaschine(SVM), die LightGradientBoostingMachine(LGBM) und den RandomForestClassifier(RFC). Ich habe die SVM und LGBM mit CouVev, Tfidf und SV trainiert und die Christina den RFC mit CouVec und Tfidf. 
+- Wir haben uns für SVM, LGBM und RFC als Machine Learning Algorithmen (MLA) entschieden.
+- SVM versucht, eine Entscheidungsgrenze zu finden, die die verschiedenen Klassen möglichst gut trennt und den größtmöglichen Abstand zu den nächsten Beispielen hat.
+- LGBM ist eine schnelle und effiziente Implementierung von Gradient Boosting Decision Trees (GBDTs) die speziell für große Datenmengen und hohe Dimensionen optimiert ist.
+- RFC besteht aus mehreren Entscheidungsbäumen, die unabhängig voneinander trainiert und dann zusammengeführt werden, um eine endgültige Vorhersage zu treffen.
 
 # Unsere Hyperparamter-Tuning
 - Durchführung einer GridSearchCV für SVM und Arbeit mit FLAML für LGBM, bevor finaler Durchlauf
