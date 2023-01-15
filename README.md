@@ -20,7 +20,10 @@ Testdatensatz:
 
 ![image](https://user-images.githubusercontent.com/122549143/212372632-271b5f95-5e41-454c-874d-c4b9e3b15822.png)
 
-Bevor wir uns dem Preprocessing gewidmet haben, wollten wir einen Datensatz haben, bei den die Genre ausgewogen verteilt sind und nur englische Liedtexte verwendet werden. Verschiedene Sprachen hätten unser Projekt deutlich komplizierter gemacht und wir wollten uns lieber auf unsere Hauptaufgabe konzentrieren. Also haben wir unseren Datensatz nach nur englischen Liedern sortiert und das Genre mit den wenigsten Liedtexten angeschaut. Dieses Genre ist "Electronic" mit 1809 Liedern. 
+Ziel: ausgewogen verteilter Datensatz mit englischen Liedtexten
+- Vermeidung von Mehrsprachigkeit, um sich auf Hauptaufgabe zu konzentrieren
+- Sortierung des Datensatzes nach englischen Liedern
+- Betrachtung des Genres mit den wenigsten Liedtexten(Electronic: 1809 Lieder)
 
 Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 1800 Liedtexten in englisch.
 
