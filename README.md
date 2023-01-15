@@ -41,16 +41,10 @@ Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 180
 - Ergebnis: Spalten "Genre", "Lyrics", "cleanded_lyrics", "stemmed_lyrics", "wosw_lyrics", "stemmed_wosw_lyrics" und "wosw_stemmed_lyrics" zur Verfügung für Feature-Extraktion und Anwendung von Machine-Learning-Algorithmen.
 
 # Feature Extrahierung
-Wir haben auf unsere 5 Liedtext-Spalten jeweils einmal einen CountVectorizer(CouVec), TF-IDF Vectozier(Tfidf), SpaCy-Vektorizer(SV), xxx und xxx angewendet. 
-
-Der CountVectorizer ist ein in der NLP (Natural Language Processing) verwendetes Tool, das verwendet wird, um Texte in eine numerische Darstellung zu übersetzen. Es zählt die Häufigkeit von Wörtern in einem gegebenen Text und erstellt daraus eine Sparse Matrix. Diese Matrix kann dann als Eingabe für maschinelle Lernalgorithmen verwendet werden.
-
-
-Der TF-IDF Vectorizer ist ein weiteres Tool, das in der NLP (Natural Language Processing) verwendet wird, um Texte in eine numerische Darstellung zu übersetzen. Es basiert auf der Idee des Term-Frequency-Inverse-Document-Frequency (TF-IDF). TF (Term Frequency) misst die Häufigkeit, mit der ein bestimmtes Wort in einem gegebenen Text vorkommt. IDF (Inverse Document Frequency) misst, wie wichtig ein Wort im Vergleich zu allen Texten in einer gegebenen Sammlung von Texten ist. Ein Wort, das in vielen Texten vorkommt, hat einen niedrigeren IDF-Wert als ein Wort, das nur in wenigen Texten vorkommt. Der TF-IDF Vectorizer berechnet zunächst die TF-Werte für jedes Wort in einem Text und multipliziert sie mit dem IDF-Wert des Wortes. Dies erzeugt eine numerische Darstellung des Textes, die die Wichtigkeit jedes Wortes im Kontext des gesamten Dokuments berücksichtigt.
-
-
-Ein Spacy-Vectorizer ist ein Skript oder eine Funktion, die die Verarbeitung von Textdokumenten mit dem Spacy-Modell durchführt und dabei Vektoren erstellt, die als Eingabe für maschinelle Lernmodelle verwendet werden können. Spacy bietet Funktionen zur Tokenisierung, Lemmatisierung und POS-Tagging von Texten und durch die Erstellung von Vektoren werden diese Texten in numerischen Darstellungen umgewandelt. Diese Vektoren können dann als Eingabe für maschinelle Lernmodelle verwendet werden, um Textklassifikationsaufgaben zu lösen.
-
+- Anwendung von CountVectorizer(CouVec), TF-IDF Vectozier(Tfidf) und SpaCy-Vektorizer(SV) auf 5 Liedtext-Spalten
+- CountVectorizer: Übersetzung von Texten in numerische Darstellung durch Zählen der Häufigkeit von Wörtern; Erstellung einer Sparse Matrix als Eingabe für maschinelle Lernalgorithmen
+- TF-IDF Vectorizer: Übersetzung von Texten in numerische Darstellung durch Berechnung von TF-Werten und Multiplikation mit IDF-Werten; Berücksichtigung von Wichtigkeit von Wörtern im Kontext des gesamten Dokuments
+- Spacy-Vectorizer: Verarbeitung von Textdokumenten mit Spacy-Modell, Erstellung von Vektoren durch Tokenisierung, Lemmatisierung und POS-Tagging; Umwandlung von Texten in numerische Darstellung als Eingabe für maschinelle Lernmodelle.
 
 # Unsere Machine-Learning-Algorithmen (MLA)
 Mit unseren Features bzw. Vektoren können wir nun unsere MLA trainieren. Wir haben uns für folgende MLA entschieden: Eine SupportVectorMaschine(SVM), die LightGradientBoostingMachine(LGBM) und den RandomForestClassifier(RFC). Ich habe die SVM und LGBM mit CouVev, Tfidf und SV trainiert und die Christina den RFC mit CouVec und Tfidf. 
