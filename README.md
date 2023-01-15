@@ -4,9 +4,6 @@ Dieses Programm klassifiziert Liedtexte in verschiedene Musikgenres. Es nutzt ma
 # Voraussetzungen
 Python 3
 
-Die in der requirements.txt aufgelisteten Libraries
-
-
 # Unser Datensatz
 Unseren Datensatz haben wir von Kaggle von dem User MATEI BEJAN. Hier ist der Link zu diesem Datensatz: https://www.kaggle.com/datasets/mateibejan/multilingual-lyrics-for-genre-classification?select=train.csv
 
