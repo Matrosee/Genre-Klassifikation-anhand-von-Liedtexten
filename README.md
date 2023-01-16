@@ -24,9 +24,9 @@ Ziel: ausgewogen verteilter Datensatz mit englischen Liedtexten
 - Sortierung des Datensatzes nach englischen Liedern
 - Betrachtung des Genres mit den wenigsten Liedtexten(Electronic: 1809 Lieder)
 
-Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 1800 Liedtexten in englisch.
+Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 1890 Liedtexten in englisch.
 
-HIER EIN BILD DER ZUSAMMFASSUNG UNSERES TRAININGSDATENSATZES
+![image](https://user-images.githubusercontent.com/122549143/212699898-b840bf5c-03c8-4230-be11-f9efb4116226.png)
 
 
 # Unser Preprocessing
