@@ -75,5 +75,5 @@ Die besten Resultate pro Feature:
 - Mit mehr Liedtexten arbeiten
 
 - Möglicherweise mit multilabel classification arbeiten statt mit binary classification
-- 
+
 - Fehlende Abdeckung von Untergenres
