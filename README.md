@@ -76,4 +76,3 @@ Die besten Resultate pro Feature:
 
 - Möglicherweise mit multilabel classification arbeiten statt mit binary classification
 
-- Fehlende Abdeckung von Untergenres
