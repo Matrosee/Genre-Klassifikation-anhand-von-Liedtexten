@@ -71,7 +71,7 @@ Die besten Resultate pro Feature:
 # Was hätten wir besser machen können?/ Woran sollte man weiterarbeiten beim nächsten Mal?
 - Weitere verschiedene MLA ausprobieren
 
-- Weitere verschiedene Features-Extrahierer ausprobieren, z.B. Reim-Muster, xxx, xxx, etc. 
+- Weitere verschiedene Features-Extrahierer ausprobieren, z.B. Reim-Muster etc. 
 
 - Mit mehr Liedtexten arbeiten
 
