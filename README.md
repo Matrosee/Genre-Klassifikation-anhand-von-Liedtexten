@@ -64,9 +64,9 @@ Mit den Optimalen Hyperparametern haben wir unsere MLA trainiert und folgende Er
 
 
 Die besten Resultate pro Feature:
-- CountVectorizer:    xxx mit folgenden Hyperparamtern: Y:XX, Y:xx, Y:xx
-- TF-IDF Vectorizer:  xxx mit folgenden Hyperparamtern: Y:XX, Y:xx, Y:xx
-- Spacy-Vectorizer:   xxx mit folgenden Hyperparamtern: Y:XX, Y:xx, Y:xx
+- SVM: C:0.01 Gamme:0.07 Kernel: linear   
+- LGBM:  n_estimators:200, num_leaves: 184, min_child_samples:3, learning_rate:0.08838576141784195, log_max_bin:9, colsample_bytree:0.39039795455449644, reg_alpha:0.014844095616079196, reg_lambda:0.05525097930389173)
+- RF:   max_depth: none n_estimators: 200
 
 # Was hätten wir besser machen können?/ Woran sollte man weiterarbeiten beim nächsten Mal?
 - Weitere verschiedene MLA ausprobieren
