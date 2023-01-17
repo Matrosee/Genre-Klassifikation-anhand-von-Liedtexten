@@ -60,7 +60,8 @@ Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 189
 # Unsere Ergebnisse
 Mit den Optimalen Hyperparametern haben wir unsere MLA trainiert und folgende Ergebnisse bekommen:
 
-![image](https://user-images.githubusercontent.com/122549143/212345700-96bd628a-3d1d-4f2a-90d0-1ff25a7228f2.png)
+![image](https://user-images.githubusercontent.com/122549143/212890281-7df7ec89-72f3-4df2-aaa8-f1a750cb5c32.png)
+
 
 Die besten Resultate pro Feature:
 - CountVectorizer:    xxx mit folgenden Hyperparamtern: Y:XX, Y:xx, Y:xx
