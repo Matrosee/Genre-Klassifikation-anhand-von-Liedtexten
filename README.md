@@ -60,11 +60,12 @@ Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 189
 # Unsere Ergebnisse
 Mit den Optimalen Hyperparametern haben wir unsere MLA trainiert und folgende Ergebnisse bekommen:
 
-![image](https://user-images.githubusercontent.com/122549143/214284611-9da39e77-7ad9-4958-b374-c0602dc8e99c.png)
+![image](https://user-images.githubusercontent.com/122549143/214307091-5ca8265e-f29f-47dc-915f-038be2a5cb80.png)
 
 
 
-Die besten Resultate pro Feature:
+
+Die besten Resultate pro Vectorizer:
 
 - SVM CouVec:             C: 0.01 	Gamme: 0.07 	Kernel: linear  
 
