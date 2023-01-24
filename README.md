@@ -60,12 +60,13 @@ Zusammengeafasst haben wir einen Trainingsdatensatz mit 10 Genre mit jeweils 189
 # Unsere Ergebnisse
 Mit den Optimalen Hyperparametern haben wir unsere MLA trainiert und folgende Ergebnisse bekommen:
 
-![image](https://user-images.githubusercontent.com/122549143/212890281-7df7ec89-72f3-4df2-aaa8-f1a750cb5c32.png)
+![image](https://user-images.githubusercontent.com/122549143/214284237-38f95f9d-df47-4b3e-a0cd-4f1ee50f445f.png)
 
 
 Die besten Resultate pro Feature:
-- SVM: C:0.01 Gamme:0.07 Kernel: linear   
+-SVM CouVec:             C: 0.01 	Gamme: 0.07 	Kernel: linear  
 - LGBM:  n_estimators:200, num_leaves: 184, min_child_samples:3, learning_rate:0.08838576141784195, log_max_bin:9, colsample_bytree:0.39039795455449644, reg_alpha:0.014844095616079196, reg_lambda:0.05525097930389173)
+- SVM Spacy-Vectorizer:  C: 1 	  Gamme: 1.5 	  Kernel: linear
 - RF:   max_depth: none n_estimators: 200
 
 # Was hätten wir besser machen können?/ Woran sollte man weiterarbeiten beim nächsten Mal?
